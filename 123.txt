@@ -1,0 +1,6 @@
+a=[15,78,424,75,2]
+for i in rang(len(a)-1):
+    for j in rang(len(a)-i-1):
+        if a[j]>a[j+1]:
+	   a[j],a[j+1]=a[j+1],a[j]
+print(a)
